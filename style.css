@@ -1,0 +1,54 @@
+@import url(https://db.onlinewebfonts.com/c/47d73546eb93e9766cab5050fa0118e6?family=Restore+W00+ExtraLight);
+body {
+    font-family: 'Restore W00 ExtraLight';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7393B3; /* Bluish-gray background */
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #8080FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.user-card {
+    font-family: sans-serif;
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-card img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-card h2 {
+    margin: 10px 0;
+}
+
+.user-card p {
+    margin: 5px 0;
+}
